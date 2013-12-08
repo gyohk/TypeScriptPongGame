@@ -62,8 +62,8 @@ module ponggame{
                 { src: "assets/ball.png", id: "ball" },
                 { src: "assets/win.png", id: "win" },
                 { src: "assets/lose.png", id: "lose" },
-                { src: "assets/playerScore.mp3|playerScore.ogg", id: "playerScore" },
-                { src: "assets/enemyScore.mp3|enemyScore.ogg", id: "enemyScore" },
+                { src: "assets/playerScore.mp3|assets/playerScore.ogg", id: "playerScore" },
+                { src: "assets/enemyScore.mp3|assets/enemyScore.ogg", id: "enemyScore" },
                 { src: "assets/hit.mp3|assets/hit.ogg", id: "hit" },
                 { src: "assets/wall.mp3|assets/wall.ogg", id: "wall" }
             ];
