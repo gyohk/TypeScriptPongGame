@@ -17,17 +17,12 @@ $(window).resize(function () {
 });
 
 function fixScale() {
-    var w = $("#wrapper").innerWidth();
-    var h = $("#wrapper").innerHeight();
+    var w = $("#container").innerWidth();
+    var h = $("#container").innerHeight();
     $("#PongStage").attr({ width: w });
     $("#PongStage").attr({ height: h });
 
     var stagew = w / 480;
-    var stageh = h / 320;
-
-    if (w / 320 > h / 480) {
-        main.setStageScale(stagew);
-    } else {
-        main.setStageScale(stageh);
-    }
+    main.setStageScale(stagew);
 }
+//# sourceMappingURL=app.js.map

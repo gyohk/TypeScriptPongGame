@@ -18,19 +18,11 @@ $(window).resize(function(){
 });
 
 function fixScale(){
-    var w: number = $("#wrapper").innerWidth();
-    var h: number = $("#wrapper").innerHeight();
+    var w: number = $("#container").innerWidth();
+    var h: number = $("#container").innerHeight();
     $("#PongStage").attr({width: w});
     $("#PongStage").attr({ height: h });
 
-    
-    var stagew:number = w / 480;
-    var stageh:number = h / 320;
-    
-    if(w / 320 > h / 480){
-        main.setStageScale(stagew);
-    }else{
-        main.setStageScale(stageh);
-    }
-    
+    var stagew: number = w / 480;
+    main.setStageScale(stagew);
 }
