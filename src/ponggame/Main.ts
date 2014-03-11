@@ -347,10 +347,10 @@ module ponggame{
             this.stageContainer.x = Math.ceil((new_w - 480) / 2);
             this.stageContainer.y = Math.ceil((new_h - 320) / 2);
 
-            var g = this.stageBg.graphics;
-            g.beginFill("#660000"); // 黒で塗りつぶす
-            g.drawRect(0, 0, new_w, new_h); // (開始座標点X, 開始座標点Y, 終了座標点X, 終了座標点Y)
-            g.endFill(); // 塗りつぶしをやめる
+            var g2 = this.stageBg.graphics;
+            g2.beginFill("#660000"); // 黒で塗りつぶす
+            g2.drawRect(0, 0, new_w, new_h); // (開始座標点X, 開始座標点Y, 終了座標点X, 終了座標点Y)
+            g2.endFill(); // 塗りつぶしをやめる
         }
     }
 }
